@@ -11,18 +11,46 @@
 <style>
 
 .navbar-brand{
-    color: aliceblue;
+    color: #e7948c;
+    font-size: 28px;
 }
 
 .nav-link{
-    color: aliceblue;
+    color: #e7948c;
+}
+
+.Hebe{
+  transition-property: transform;
+  transition-duration: 1000ms;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.Hebe:hover{
+  transform: translateX(8%);
+  transition: 2s;
+}
+
+.banner{
+  height: auto;
+  background: #ededec;
+  background: linear-gradient(#fcedeb 0%, #ededec, #b9b9b9 100%);
+  border-style: inset;
+  border-width: 1px;
+  border-top-color: #ffffff;
+}
+
+.col{
+  font-size: 19px;
+  text-align: start;
+  color: #e7948c;
 }
 
 </style>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: #f580a7;">
+        <nav class="navbar navbar-expand-lg" style="background-color: white;">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Conexão Vocacional</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,6 +82,28 @@
             </div>
           </nav>
     </header>
+
+    <main>
+      <div class="banner">
+        <div class="container text-center">
+          <div class="row align-items-center">
+            <div class="col">
+              <p><strong>Recrutamento e Seleção</strong></p>
+              <p>Analista de Perfil Comportamental</p>
+              <p>Clima Organizacional</p>
+              <p>Pós Graduada em Perícia Grafotécnica</p>
+            </div>
+            <div class="col-8">
+              <div class="Hebe" style="padding-bottom: 0;">
+                <img src="images/hebe3.png" style=" height: 400px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    </main>
 
 </body>
 </html>
