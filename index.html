@@ -2,85 +2,32 @@
 <html lang="pt-br">
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conexão Vocacional</title>
 </head>
 
-<style>
-
-.navbar-brand{
-    color: #e7948c;
-    font-size: 28px;
-}
-
-.nav-link{
-    color: #e7948c;
-}
-
-.Hebe{
-  transition-property: transform;
-  transition-duration: 1000ms;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-}
-
-.Hebe:hover{
-  transform: translateX(8%);
-  transition: 2s;
-}
-
-.banner{
-  height: auto;
-  background: #ededec;
-  background: linear-gradient(#fcedeb 0%, #ededec, #b9b9b9 100%);
-  border-style: inset;
-  border-width: 1px;
-  border-top-color: #ffffff;
-}
-
-.col{
-  font-size: 19px;
-  text-align: start;
-  color: #e7948c;
-}
-
-</style>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: white;">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Conexão Vocacional</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">Conexão Vocacional</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown link
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
                 </ul>
-              </div>
             </div>
-          </nav>
+        </div>
+    </nav>
     </header>
 
     <main>
@@ -88,19 +35,127 @@
         <div class="container text-center">
           <div class="row align-items-center">
             <div class="col">
-              <p><strong>Recrutamento e Seleção</strong></p>
-              <p>Analista de Perfil Comportamental</p>
-              <p>Clima Organizacional</p>
-              <p>Pós Graduada em Perícia Grafotécnica</p>
+              <h3><strong>Sua vocação é o nosso propósito.</strong></h3>
+              <h6>Atuamos com excelência em Recrutamento e Seleção, Análise de Perfil Comportamental e Clima Organizacional.</p>
+              <h6>Com formação sólida e especialização em Perícia Grafotécnica, ajudamos pessoas e empresas a encontrarem o melhor caminho para o sucesso.</p>
             </div>
-            <div class="col-8">
+            <div class="col-5">
               <div class="Hebe" style="padding-bottom: 0;">
-                <img src="images/hebe3.png" style=" height: 400px;">
+                <img src="images/logo.png" class="img-fluid" style="max-height: 250px;">
               </div>
             </div>
           </div>
         </div>
       </div>
+
+            <!-- Seção Sobre -->
+      <section id="sobre" class="py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="images/hebe3.png" alt="Sobre nós" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+              <h2 class="texto-titulo mb-4">Quem Sou</h2>
+              <p>Somos especialistas em conectar talentos e empresas, trabalhando com ética, responsabilidade e dedicação. Nossa missão é transformar histórias através da orientação vocacional, seleção estratégica e análise comportamental precisa.</p>
+              <p>Com sólida formação acadêmica e anos de experiência prática, oferecemos soluções personalizadas para o desenvolvimento organizacional e pessoal.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção Serviços -->
+      <section id="servicos" class="py-5" style="background-color: #f1f1f1;">
+        <div class="container text-center">
+          <h2 class="texto-titulo mb-5">Nossos Serviços</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Recrutamento e Seleção</h4>
+              <p>Processos seletivos personalizados, focados em encontrar o profissional ideal para a sua empresa.</p>
+            </div>
+            <div class="col-md-4">
+              <h4>Análise de Perfil Comportamental</h4>
+              <p>Compreensão profunda do comportamento humano para formar equipes mais eficientes e engajadas.</p>
+            </div>
+            <div class="col-md-4">
+              <h4>Clima Organizacional</h4>
+              <p>Diagnóstico e melhorias do ambiente de trabalho para aumentar a produtividade e o bem-estar interno.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+            <!-- Seção O que nos torna únicos -->
+      <section id="unicos" class="py-5">
+        <div class="container text-center">
+          <h2 class="texto-titulo mb-5">O que nos torna únicos</h2>
+          <div class="row g-4">
+            <div class="col-md-3">
+              <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                  <div class="mb-3">
+                    <i class="bi bi-person-badge" style="font-size: 40px; color: #f35a4c;"></i>
+                  </div>
+                  <h5 class="card-title">Especialização</h5>
+                  <p class="card-text">Equipe formada por especialistas em perfil comportamental e seleção estratégica.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                  <div class="mb-3">
+                    <i class="bi bi-emoji-smile" style="font-size: 40px; color: #f35a4c;"></i>
+                  </div>
+                  <h5 class="card-title">Atendimento Humano</h5>
+                  <p class="card-text">Tratamos cada cliente de forma personalizada, com atenção e respeito.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                  <div class="mb-3">
+                    <i class="bi bi-bar-chart-line" style="font-size: 40px; color: #f35a4c;"></i>
+                  </div>
+                  <h5 class="card-title">Resultados Reais</h5>
+                  <p class="card-text">Metodologias comprovadas que geram resultados sólidos para pessoas e empresas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                  <div class="mb-3">
+                    <i class="bi bi-lightbulb" style="font-size: 40px; color: #f35a4c;"></i>
+                  </div>
+                  <h5 class="card-title">Inovação Constante</h5>
+                  <p class="card-text">Estamos sempre atualizados com as melhores práticas e tecnologias do mercado.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Seção Contato -->
+      <section id="contato" class="py-5">
+        <div class="container text-center">
+          <h2 class="texto-titulo mb-4">Fale Conosco</h2>
+          <p class="mb-4">Entre em contato para agendar uma consultoria ou tirar dúvidas. Estamos prontos para ajudar!</p>
+          <a href="https://wa.me/seunumerodetelefone" target="_blank" class="btn btn-lg" style="background-color: #f35a4c; color: white;">
+            Falar pelo WhatsApp
+          </a>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="py-3" style="background-color: #f35a4c;">
+        <div class="container text-center">
+          <p class="mb-0" style="color: white;">&copy; 2025 Conexão Vocacional. Todos os direitos reservados.</p>
+        </div>
+      </footer>
 
       
     </main>
