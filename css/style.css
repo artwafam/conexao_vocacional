@@ -1,0 +1,44 @@
+.navbar .nav-link,
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link:active {
+  color: white !important;
+  text-decoration: none;
+}
+
+.navbar{
+    background-color: #f35a4c;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 28px;
+}
+
+.Hebe{
+  transition: transform 2s ease;
+}
+
+.Hebe:hover{
+  transform: translateX(8%);
+}
+
+.banner {
+  height: auto;
+  background: linear-gradient(to bottom, #ffffff 0%, #ededec 50%, #b9b9b9 100%);
+  border-style: inset;
+  border-width: 1px;
+  border-top-color: #f35a4c;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.col{
+  font-size: 19px;
+  text-align: start;
+  color: #f35a4c;
+}
+
+.texto-titulo{
+    color: #f35a4c;
+}
