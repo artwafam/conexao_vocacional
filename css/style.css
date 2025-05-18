@@ -7,7 +7,7 @@
 }
 
 .navbar{
-    background-color: #f35a4c;
+    
 }
 
 .navbar-brand{
@@ -20,15 +20,13 @@
 }
 
 .Hebe:hover{
-  transform: translateX(8%);
+  transform: scale(1.15);
+  transition: 2s;
 }
 
 .banner {
   height: auto;
-  background: linear-gradient(to bottom, #ffffff 0%, #ededec 50%, #b9b9b9 100%);
-  border-style: inset;
-  border-width: 1px;
-  border-top-color: #f35a4c;
+  
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -36,9 +34,19 @@
 .col{
   font-size: 19px;
   text-align: start;
-  color: #f35a4c;
+  color: white;
 }
 
 .texto-titulo{
-    color: #f35a4c;
+    color: #8a1106;
+}
+
+body{
+  background: linear-gradient(to bottom, #f35a4c 0%, #fda199 50%, #ffcec9 100%);
+  color: #8a1106;
+}
+
+.card{
+  background-color: #f35a4c;
+  color: white;
 }
