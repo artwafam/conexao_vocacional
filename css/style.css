@@ -50,3 +50,10 @@ body{
   background-color: #f35a4c;
   color: white;
 }
+
+.carousel{
+  text-align: center;
+  justify-self: center;
+  display: flex;
+  width: auto;
+}
